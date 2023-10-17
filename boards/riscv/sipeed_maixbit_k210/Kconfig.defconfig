@@ -1,0 +1,9 @@
+# Copyright (c) 2019 BayLibre SAS
+# SPDX-License-Identifier: Apache-2.0
+
+config BUILD_OUTPUT_BIN
+	default n
+
+config BOARD
+	default "sipeed_maixbit_k210" if BOARD_SIPEED_MAIXBIT_K210
+	default "sipeed_maixbit_k210_smp" if BOARD_SIPEED_MAIXBIT_K210_SMP
