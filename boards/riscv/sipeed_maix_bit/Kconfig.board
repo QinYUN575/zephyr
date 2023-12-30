@@ -1,0 +1,10 @@
+# Sipeed MaixBit board configuration
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_SIPEED_MAIX_BIT
+	bool "SIPEED MAIX_BIT Board"
+	depends on SOC_SERIES_CANAAN_K210
+
+choice SOC_PART_NUMBER
+	default SOC_CANAAN_K210
+endchoice

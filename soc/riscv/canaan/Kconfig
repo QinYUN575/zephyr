@@ -1,0 +1,16 @@
+
+# SPDX-License-Identifier: Apache-2.0
+
+config SOC_FAMILY_CANAN_K210
+	bool
+
+if SOC_FAMILY_CANAN_K210
+
+config SOC_FAMILY
+	string
+	default "canaan_k210"
+
+source "soc/riscv/canaan_k210/common/Kconfig.soc"
+source "soc/riscv/canaan_k210/*/Kconfig.soc"
+
+endif # SOC_FAMILY_CANAN_K210

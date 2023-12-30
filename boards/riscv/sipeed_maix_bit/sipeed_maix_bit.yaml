@@ -1,0 +1,14 @@
+identifier: sipeed_maix_bit
+name: CANAAN-K210
+type: mcu
+arch: riscv64
+toolchain:
+  - zephyr
+supported:
+  - gpio
+  - uart
+testing:
+  ignore_tags:
+    - net
+    - bluetooth
+vendor: canaan

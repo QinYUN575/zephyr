@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
+
+source "soc/riscv/canaan_k210/common/Kconfig.defconfig.series"
+source "soc/riscv/canaan_k210/*/Kconfig.defconfig.series"
