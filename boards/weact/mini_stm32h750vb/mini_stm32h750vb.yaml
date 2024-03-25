@@ -1,0 +1,15 @@
+identifier: mini_stm32h750vb
+name: WeAct Studio STM32H750VB Dev Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 1024
+flash: 128
+supported:
+  - arduino_gpio
+  - gpio
+  - dma
+vendor: st

@@ -1,0 +1,5 @@
+board:
+  name: mini_stm32h750vb
+  vendor: st
+  socs:
+    - name: stm32h750xx
